@@ -1,0 +1,130 @@
+First Draft:
+<!DOCTYPE html>
+<html lang="en">
+
+<!--- Header --->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewpoint" content = "with-device-width, initial-scale=1.0">
+    <title>Josiah-John Green | Software Engineering Student </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<!--- Body --->
+<body>
+    <section class="header">
+        <nav>
+        <a href="waste.html"><img src="Josiah-John_Green__1_-removebg-preview.png"></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Me</a></li>
+                <li><a href="">Education</a></li>
+                <li><a href="">Interests</a></li>
+                <li><a href="">Contact Me</a></li>
+            </ul>
+        </div>
+        </nav>
+
+        <div class = "text-box">
+            <h1>Hi! I`m Josiah-John Green.</h1>
+            <p>Aspiring <u> Software Engineer/Developer </u> </p>
+        </div>
+
+        <div class = "icons">
+
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+        </div>>
+
+    </section>
+
+</body>
+</html>
+
+
+Second Draft:
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!--- Header --->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewpoint" content = "with-device-width, initial-scale=1.0">
+    <title>Josiah-John Green | Software Engineering Student </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<!--- Body --->
+<body>
+
+<!--- Section One --->
+<section class="header">
+        <nav>
+        <a href="waste.html"><img src="Josiah-John_Green__1_-removebg-preview.png"></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Me</a></li>
+                <li><a href="">Education</a></li>
+                <li><a href="">Interests</a></li>
+                <li><a href="">Contact Me</a></li>
+            </ul>
+        </div>
+        </nav>
+
+        <div class = "text-box">
+            <h1>Hi! I'm Josiah-John Green.</h1>
+            <p>Aspiring <u> Software Engineer/Developer </u> </p>
+        </div>
+
+        <div class = "icons">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+        </div>
+
+</section>
+
+<!--- Section Two --->
+<section class="interests">
+
+
+        <div class="row">
+            <div class="column">
+                <img src="2bfde3c0dbfdf0d46554cac1830874e1.jpg">
+                <h3>Gaming</h3>
+            </div>
+
+                <div class="column">
+                    <img src="b676ffd209f0d6cc6924e00f4ff3fb8e.jpg">
+                    <h3>Coding</h3>
+                </div>
+
+                    <div class="column">
+                        <img src="e088328d84463727c0a7e372233d1d2a_2.jpg">
+                        <h3>Writing</h3>
+                    </div>
+
+        </div>
+
+</section>
+
+</body>
+</html>

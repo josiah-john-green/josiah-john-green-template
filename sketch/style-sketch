@@ -1,0 +1,1526 @@
+/*Home Page - First Draft: Normal Align*/
+
+======================================================================================
+
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.header{
+
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(jonatan-pie-3l3RwQdHRHg-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+nav{
+
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img{
+
+    width: 700px;
+    position: relative;
+    top: 60px;
+
+
+}
+
+
+.nav-links{
+
+    flex: 1;
+    text-align: right;
+
+
+}
+
+.nav-links ul li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+
+.nav-links ul li a{
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+
+
+}
+
+.nav-links ul li::after{
+
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+
+}
+
+.nav-links ul li:hover::after{
+
+    width: 100%;
+
+}
+
+.text-box{
+
+    width:90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+
+}
+
+.text-box h1{
+
+    font-size: 32px;
+
+}
+
+.text-box p{
+
+    margin: 10px 0px 30px;
+    font-size: 13px;
+    color: #fff;
+
+}
+
+
+.learn-btn{
+
+     display: in-line block;
+     text-decoration: none;
+     color: #fff;
+     border: 1px solid #fff;
+     padding: 12px 34px;
+     font-size: 13px;
+     background: transparent;
+     position: relative;
+     cursor: pointer;
+
+}
+
+.learn-btn:hover{
+
+    border: 1px solid #2B547E;
+    background: #2B547E;
+    transition: 1s;
+
+}
+
+
+/*Home Page - Second Draft: Center Align*/
+
+======================================================================================
+
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.header{
+
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(jonatan-pie-3l3RwQdHRHg-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+nav{
+
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img{
+
+    width: 700px;
+    position: relative;
+    top: 60px;
+
+
+}
+
+
+.nav-links{
+
+    flex: 1;
+    text-align: right;
+
+
+}
+
+.nav-links ul li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+
+.nav-links ul li a{
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+
+
+}
+
+.nav-links ul li::after{
+
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+
+}
+
+.nav-links ul li:hover::after{
+
+    width: 100%;
+
+}
+
+.text-box{
+
+    width:90%;
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.text-box h1{
+
+    font-size: 64px;
+
+}
+
+.text-box p{
+
+    margin: 20px 0px 50px;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+
+.icons .fa-brands{
+
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 12px;
+    position: relative;
+    left: 685px;
+    top: 70px;
+
+
+}
+
+/*Home Page - Third Draft: Left Align*/
+
+======================================================================================
+
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.header{
+
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(jonatan-pie-3l3RwQdHRHg-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+nav{
+
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img{
+
+    width: 700px;
+    position: relative;
+    top: 60px;
+
+
+}
+
+
+.nav-links{
+
+    flex: 1;
+    text-align: right;
+
+
+}
+
+.nav-links ul li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+
+.nav-links ul li a{
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+
+
+}
+
+.nav-links ul li::after{
+
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+
+}
+
+.nav-links ul li:hover::after{
+
+    width: 100%;
+
+}
+
+.text-box{
+
+    width:90%;
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+
+}
+
+.text-box h1{
+
+    font-size: 64px;
+
+}
+
+.text-box p{
+
+    margin: 20px 0px 50px;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+
+.icons .fa-brands{
+
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 12px;
+    position: relative;
+    left: 172px;
+    top: 70px;
+
+
+}
+
+About Page: Header - First Draft
+======================================================================================
+
+/* Header */
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.header{
+
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(jonatan-pie-3l3RwQdHRHg-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+nav{
+
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img{
+
+    width: 700px;
+    position: relative;
+    top: 32px;
+    right: 50px;
+
+
+}
+
+
+.nav-links{
+
+    flex: 1;
+    text-align: right;
+
+
+}
+
+.nav-links ul li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+
+.nav-links ul li a{
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+
+
+}
+
+.nav-links ul li::after{
+
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+
+}
+
+.nav-links ul li:hover::after{
+
+    width: 100%;
+
+}
+
+/* Section One (Body) */
+
+.text-box{
+
+    width:90%;
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+
+}
+
+.text-box h1{
+
+    font-size: 64px;
+
+}
+
+.text-box p{
+
+    margin: 20px 0px 50px;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+
+.icons .fa-brands{
+
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 12px;
+    position: relative;
+    left: 172px;
+    top: 52px;
+
+
+}
+
+
+
+/* Sub-Header: About Page */
+
+======================================================================================
+
+.about-header{
+
+    min-height = 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(jonatan-pie-3l3RwQdHRHg-unsplash.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    position: relative;
+
+}
+
+nav{
+
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img{
+
+    width: 700px;
+    position: relative;
+    top: 32px;
+    right: 50px;
+
+
+}
+
+
+.nav-links{
+
+    flex: 1;
+    text-align: right;
+
+
+}
+
+.nav-links ul li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+
+.nav-links ul li a{
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+
+
+}
+
+.nav-links ul li::after{
+
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+
+}
+
+.nav-links ul li:hover::after{
+
+    width: 100%;
+
+}
+
+/* Section One (Body) */
+
+.about-text-box{
+
+    width:90%;
+    color: #fff;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.about-text-box h1{
+
+    font-size: 52px;
+
+}
+
+.about-text-box p{
+
+    margin: 20px 0px 50px;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+/* Sub-Header: Contact Me Page*/
+
+======================================================================================
+
+/* Header: Home */
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.header{
+
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(jonatan-pie-3l3RwQdHRHg-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+nav{
+
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img{
+
+    width: 700px;
+    position: relative;
+    top: 32px;
+    right: 50px;
+
+
+}
+
+
+.nav-links{
+
+    flex: 1;
+    text-align: right;
+
+
+}
+
+.nav-links ul li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+
+.nav-links ul li a{
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+
+
+}
+
+.nav-links ul li::after{
+
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+
+}
+
+.nav-links ul li:hover::after{
+
+    width: 100%;
+
+}
+
+/* Section One (Body) */
+
+.text-box{
+
+    width:90%;
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+
+}
+
+.text-box h1{
+
+    font-size: 64px;
+
+}
+
+.text-box p{
+
+    margin: 20px 0px 50px;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+
+.icons .fa-brands{
+
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 12px;
+    position: relative;
+    left: 172px;
+    top: 52px;
+
+
+}
+
+/* Sub-Header: About Page */
+
+.about-header{
+
+    min-height = 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(gradienta-bKESVqfxass-unsplash.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+
+
+    position: relative;
+    color: #fff;
+    text-align: center;
+
+
+}
+
+nav{
+
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img{
+
+    width: 700px;
+    position: relative;
+    top: 32px;
+    right: 50px;
+
+
+}
+
+
+.nav-links{
+
+    flex: 1;
+    text-align: right;
+
+
+}
+
+.nav-links ul li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+
+.nav-links ul li a{
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+
+
+}
+
+.nav-links ul li::after{
+
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+
+}
+
+.nav-links ul li:hover::after{
+
+    width: 100%;
+
+}
+
+.about-header h1{
+
+    font-size: 52px;
+    top: 20%;
+
+}
+
+.about-header p{
+
+    margin: 10px 0px 50px;
+    font-size: 18px;
+
+
+
+}
+
+.about-me{
+
+    width: 100%;
+    background-image: linear-gradient(rgb(43,84,126), rgb(43,84,126));
+
+
+}
+
+.about-column{
+
+    flex-basis: 48%;
+
+}
+
+.about-column img{
+
+    width: 100%;
+
+
+}
+
+/* Section One (Body) */
+
+.about-text-box{
+
+    width:100%;
+    color: #fff;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.about-text-box h1{
+
+    font-size: 52px;
+
+}
+
+.learn-btn{
+
+     display: in-line block;
+     text-decoration: none;
+     color: #fff;
+     border: 1px solid #fff;
+     padding: 12px 34px;
+     font-size: 13px;
+     background: transparent;
+     position: relative;
+     cursor: pointer;
+     top: -80px;
+     left: 67%;
+
+}
+
+.learn-btn:hover{
+
+    border: 1px solid #2B547E;
+    background: #2B547E;
+    transition: 1s;
+
+}
+
+.about-footer{
+
+    width: 90.8%;
+    text-align: center;
+    padding: 20px 70px;
+    background: #2B547E;
+
+}
+
+.about-footer h4{
+
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.about-footer p{
+
+    color: white;
+    font-size: 16px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+
+}
+
+.about-icons .fa-brands{
+
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 12px;
+    position: relative;
+    left: 2px;
+    top: 2px;
+
+
+}
+
+.fa-code{
+
+    color: #fff;
+
+
+}
+
+/* Sub-Header: Education Page */
+
+.education-header{
+
+    min-height = 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(gradienta-bKESVqfxass-unsplash.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+
+
+    position: relative;
+    color: #fff;
+    text-align: center;
+
+
+}
+
+nav{
+
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img{
+
+    width: 700px;
+    position: relative;
+    top: 32px;
+    right: 50px;
+
+
+}
+
+
+.nav-links{
+
+    flex: 1;
+    text-align: right;
+
+
+}
+
+.nav-links ul li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+
+.nav-links ul li a{
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+
+
+}
+
+.nav-links ul li::after{
+
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+
+}
+
+.nav-links ul li:hover::after{
+
+    width: 100%;
+
+}
+
+.education-header h1{
+
+    font-size: 52px;
+    top: 20%;
+
+}
+
+.education-header p{
+
+    margin: 10px 0px 50px;
+    font-size: 18px;
+
+
+
+}
+
+/* Section One (Body) */
+
+.education-text-box{
+
+    width:90%;
+    color: #fff;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.education-text-box h1{
+
+    font-size: 52px;
+
+}
+
+/* Footer */
+
+.education-footer{
+
+    width: 90.8%;
+    text-align: center;
+    padding: 20px 70px;
+    background: #2B547E;
+
+}
+
+.education-footer h4{
+
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.education-footer p{
+
+    color: white;
+    font-size: 16px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+
+}
+
+.education-icons .fa-brands{
+
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 12px;
+    position: relative;
+    left: 2px;
+    top: 2px;
+
+
+}
+
+.fa-code{
+
+    color: #fff;
+
+
+}
+
+/* Sub-Header: Interests Page */
+
+.interests-header{
+
+    min-height = 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(gradienta-bKESVqfxass-unsplash.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+
+
+    position: relative;
+    color: #fff;
+    text-align: center;
+
+
+}
+
+nav{
+
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img{
+
+    width: 700px;
+    position: relative;
+    top: 32px;
+    right: 50px;
+
+
+}
+
+
+.nav-links{
+
+    flex: 1;
+    text-align: right;
+
+
+}
+
+.nav-links ul li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+
+.nav-links ul li a{
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+
+
+}
+
+.nav-links ul li::after{
+
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+
+}
+
+.nav-links ul li:hover::after{
+
+    width: 100%;
+
+}
+
+.interests-header h1{
+
+    font-size: 52px;
+    top: 20%;
+
+}
+
+.interests-header p{
+
+    margin: 10px 0px 50px;
+    font-size: 18px;
+
+
+
+}
+
+/* Section One (Body) */
+
+.interests-text-box{
+
+    width:90%;
+    color: #fff;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.interests-text-box h1{
+
+    font-size: 52px;
+
+}
+
+/* Footer */
+
+.interests-footer{
+
+    width: 90.8%;
+    text-align: center;
+    padding: 20px 70px;
+    background: #2B547E;
+
+}
+
+.interests-footer h4{
+
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.interests-footer p{
+
+    color: white;
+    font-size: 16px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+
+}
+
+.interests-icons .fa-brands{
+
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 12px;
+    position: relative;
+    left: 2px;
+    top: 2px;
+
+
+}
+
+.fa-code{
+
+    color: #fff;
+
+
+}
+
+/* Sub-Header: Contact Page */
+
+.contact-header{
+
+    min-height = 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(gradienta-bKESVqfxass-unsplash.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+
+
+    position: relative;
+    color: #fff;
+    text-align: center;
+
+
+}
+
+nav{
+
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img{
+
+    width: 700px;
+    position: relative;
+    top: 32px;
+    right: 50px;
+
+
+}
+
+
+.nav-links{
+
+    flex: 1;
+    text-align: right;
+
+
+}
+
+.nav-links ul li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+
+.nav-links ul li a{
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+
+
+}
+
+.nav-links ul li::after{
+
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+
+}
+
+.nav-links ul li:hover::after{
+
+    width: 100%;
+
+}
+
+.contact-header h1{
+
+    font-size: 52px;
+    top: 20%;
+
+}
+
+.contact-header p{
+
+    margin: 10px 0px 50px;
+    font-size: 18px;
+
+
+
+}
+
+/* Section One (Body) */
+
+.contact-text-box{
+
+    width:90%;
+    color: #fff;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.contact-text-box h1{
+
+    font-size: 52px;
+
+}
+
+/* Section Two (Body) */
+
+.location{
+
+    width: 100%;
+    margin: auto;
+
+}
+
+.location iframe{
+
+    width: 100%;
+
+
+}
+
+.contact-me {
+
+    width: 100%;
+    margin: auto;
+
+}
+
+.contact-row-one{
+
+    display: flex;
+
+}
+
+.column-me-column{
+
+
+    width: 25%;
+
+}
+
+.contact-form-column{
+
+
+    width: 25%;
+
+}
+
+
+.contact-btn{
+
+     display: in-line block;
+     text-decoration: none;
+     color: #fff;
+     border: 1px solid #fff;
+     padding: 12px 34px;
+     font-size: 13px;
+     background: #2B547E;
+     position: relative;
+     cursor: pointer;
+     top: -80px;
+     left: 67%;
+
+}
+
+
+
+/* Footer */
+
+.contact-footer{
+
+    width: 90.8%;
+    text-align: center;
+    padding: 20px 70px;
+    background: #2B547E;
+
+}
+
+.contact-footer h4{
+
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.contact-footer p{
+
+    color: white;
+    font-size: 16px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+
+}
+
+.contact-icons .fa-brands{
+
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 12px;
+    position: relative;
+    left: 2px;
+    top: 2px;
+
+
+}
+
+.fa-code{
+
+    color: #fff;
+
+
+}
+
+
+
+
+
