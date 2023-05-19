@@ -1,58 +1,304 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 
 <!--- Header --->
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content= "IE=edge">
     <meta name = "viewpoint" content = "with-device-width, initial-scale=1.0">
-    <title>Josiah-John Green | Home </title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
 
+    <title>Josiah-John Green | Portfolio </title>
+
+    <link rel = "stylesheet" href = "style.css">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href = "https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/7929e408c8.js" crossorigin="anonymous"></script>
 
 </head>
 
 <!--- Body --->
 <body>
 
-<!--- Section One --->
-<section class="header">
+<!--- Header --->
+<section id = "header">
+    <div class = "container">
         <nav>
-           <a href="index.html"> <img src="logo.png"></a>
+            <img src = "logo.png" class = "logo">
+            <ul id = "sidemenu">
+                <li><a href = "#header" >Home</a></li>
+                <li><a href = "#about" >About</a></li>
+                <li><a href = "#interests" >Interests</a></li>
+                <li><a href = "#portfolio" >Portfolio</a></li>
+                <li><a href = "#contacts" >Contact</a></li>
+                <i class="fas fa-times" onclick = "closemenu()" ></i>
+            </ul>
+            <i class="fas fa-bars" onclick = "openmenu()"></i>
         </nav>
 
-        <div class = "name">
-            <h1>Josiah-John Green</h1>
+        <div class = "header-text">
+            <p>Prospective Software Engineer</p>
+            <h1> Hi, I'm <span> Josiah-John </span> <br> Green From Jamaica</h1>
         </div>
 
-        <div class = "message">
-            <h1></h1>
-        </div>
+    </div>
+</section>
 
-        <div class = "email">
-            <p>josiahjohngreen@gmail.com</p>
-        </div>
+<!--- About --->
 
-        <div class = "hack">
-            <a href="https://www.hackerrank.com/josiahjohngreen" target ="_blank"><i class="fa-brands fa-hackerrank"></i></a>
-        </div>
+<section id = "about">
+    <div class = "container">
+        <div class = "row">
+            <div class = "column-one">
+               <img src = "image.png" class = "image">
+            </div>
 
-        <div class = "insta">
-            <a href="https://www.instagram.com/josiah_jonh_" target ="_blank"><i class="fa-brands fa-instagram"></i></a>
-        </div>
+            <div class = "column-two">
+                <h1 class = "sub-titles"> About Me </h1>
+                <p>I'm an aspiring Software Engineer/Developer hoping to specialize in the field of Full-Stack Engineering.
+                Currently, a dual major in Software Engineering and Biochemistry, studying at the University of the West Indies, Mona,
+                Jamaica (U.W.I). </p>
 
-        <div class = "linked">
-            <a href="https://www.linkedin.com/in/josiah-john-green/" target ="_blank"><i class="fa-brands fa-linkedin"></i></a>
-        </div>
+                <div class = "tab-titles">
+                    <p class = "tab-links active-link" onclick = "opentab('skills')"> Skills </p>
+                    <p class = "tab-links" onclick = "opentab('experience')"> Experience </p>
+                    <p class = "tab-links" onclick = "opentab('education')"> Education </p>
+                    <p class = "tab-links" onclick = "opentab('involvement')"> Involvement </p>
+                </div>
 
-        <div class = "git">
-            <a href="https://github.com/josiah-john-green" target ="_blank"> <i class="fa-brands fa-github"></i></a>
+                <div class = "tab-contents active-tab" id = "skills">
+                    <ul>
+                        <li> <span> UI/UX </span> <br> Designing App/Web Interfaces </li>
+                        <li> <span> Web Development </span> <br> Designing Websites </li>
+                        <li> <span> Graphic Design </span> <br> Designing Social Media Platforms: Instagram and Twitter </li>
+                    </ul>
+                </div>
+
+                <div class = "tab-contents" id = "experience">
+                    <ul>
+                        <li> <span> 2022 - Present </span> <br> Public Relations Officer of UWI Japanese Club </li>
+                        <li> <span> 2021 - 2022 </span> <br> Computing Course Representative </li>
+                    </ul>
+                </div>
+
+                <div class = "tab-contents" id = "education">
+                    <ul>
+                        <li> <span> 2021 - Present </span> <br> Software Engineering Major at University of the West Indies </li>
+                    </ul>
+                </div>
+
+                <div class = "tab-contents" id = "involvement">
+                    <ul>
+                        <li> <span> 2022 - Present </span> <br> Executive Member of the UWI Japanese Club [Public Relations Officer] </li>
+                        <li> <span> 2022 - Present </span> <br> Member of the Computing Society </li>
+                    </ul>
+                </div>
+
+
+            </div>
         </div>
+    </div>
+</section>
+
+<!--- Interests --->
+<section id = "interests">
+
+    <div class = "container">
+        <h1 class = "sub-titles"> My Interests </h1>
+        <div class = "interests-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+
+                <h2> Coding. </h2>
+                <p> Probably opening to my curious nature, I was always intrigued by the
+                    workings of a piece of software: How does it work? What does it do? Can it be improved? Added to? Integrated?
+                    Resultantly this innate curiosity and later passion, culminated in my degree of choice, "Software Engineering".</p>
+
+                <a href = "#contact"> Learn More </a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-headset"></i>
+
+                <h2> Gaming. </h2>
+                <p> Conquering and exploring the lands of Teyvat; building the most eccentric structures in a
+                    world built for crafting; and interacting and battling players for championship glory through
+                    the UNITE, PokeOne and LOL universes. Is just one of the ways I spend my free time.     </p>
+
+                <a href = "#contact"> Learn More </a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-paragraph"></i>
+
+                <h2> Writing </h2>
+                <p> Fantastical tales, daring adventures, dastardly fails and astounding triumphs are what I cultivate and
+                    bound to the pages of the manuscripts and amateur works, I design. Taking on the role of a not-so-newly
+                    minted creative writer. Inspired by Harry Potter, Percy Jackson and Hardy Boy books </p>
+
+                <a href = "#contact"> Learn More </a>
+            </div>
+        </div>
+    </div>
 
 </section>
+
+<!--- Portfolio --->
+<section id = "portfolio">
+
+    <div class = "container">
+        <h1 class = "sub-titles"> My Work </h1>
+        <div class = "work-list">
+            <div class = "work">
+                <img src = "image_one.jpg">
+
+                <div class = "layer">
+                    <h2> Personalized Website </h2>
+                    <p> Presents snippets of information about me, my interests, my goals, my education
+                        and means by which you can contact me </p>
+
+                    <a href = "#"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                </div>
+
+            </div>
+
+            <div class = "work">
+                <img src = "image_two.jpg">
+                <div class = "layer">
+                    <h2> Professional Website </h2>
+                    <p> Presents snippets of information about me, my interests, my skills, my education,
+                        my involvement, my projects and means by which you can contact me .</p>
+
+                    <a href = "#"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                </div>
+
+
+            </div>
+
+            <div class = "work">
+                <img src = "image_three.png">
+                <div class = "layer">
+                    <h2> Automated Train System </h2>
+                    <p> GUI which invokes a train system, enabling the user to input information, about train, their routes, stations
+                        segments and events such as the opening and closing of aforementioned system components, to which is printed and
+                        readable to the 'initializationFile' </p>
+
+                    <a href = "#"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                </div>
+            </div>
+        </div>
+        <a href = "#" class = "btn"> See More </a>
+    </div>
+
+</section>
+
+<!--- Contacts --->
+
+<section id = "contacts">
+
+    <div class = "container">
+        <div class = "row">
+            <div class = "contact-left">
+                <h1 class = "sub-titles"> Contact Me </h1>
+                <p><i class = "fa-solid fa-envelope"></i> josiahjohngreen@gmail.com</p>
+                <p><i class = "fa-solid fa-phone"></i> +1 (876)-208-2517 </p>
+
+
+                <div class = "social-icons">
+                    <a href="https://www.hackerrank.com/josiahjohngreen" target ="_blank"><i class="fa-brands fa-hackerrank"></i></a>
+                    <a href="https://www.instagram.com/josiah_jonh_" target ="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/josiah-john-green/" target ="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/josiah-john-green" target ="_blank"> <i class="fa-brands fa-github"></i></a>
+                </div>
+
+                <a href = "resume - josiah-john green.pdf" download class = "btn contact"> Download CV </a>
+
+            </div>
+
+            <div class = "contact-right">
+                <form name = "submit-to-google-sheet">
+                    <input type = "text", name = "Name" placeholder = "Your Name" required>
+                    <input type = "email", name = "Email" placeholder = "Your Email" required>
+                    <textarea name = "message", rows = "6" placeholder = "Your Message" required></textarea>
+                    <button type = "submit" class = "btn contact">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class = "copyright">
+        <p> Copyright © Josiah. Made by Josiah-John Green <i class="fa-solid fa-code"></i> </p>
+    </div>
+</section>
+
+<!--- Script: Tabcontent and Tablinks --->
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+
+        for(tablink of tablinks){
+
+            tablink.classList.remove("active-link");
+
+        }
+
+        for(tabcontent of tabcontents){
+
+            tabcontent.classList.remove("active-tab");
+
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+</script>
+
+<!--- Script: Sidemenu --->
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu()
+    {
+
+        sidemenu.style.right = "0";
+
+    }
+
+    function closemenu()
+    {
+
+        sidemenu.style.right = "-300px";
+
+    }
+
+
+</script>
+
+<!--- Script: Google Sheets --->
+
+<script>
+
+  const scriptURL = '<https://script.google.com/macros/s/AKfycbzI7wiJ48cYmnrNKYLa_MtJt18yENHaiWNKMSdy2__lh6NueaEwiYsGjPgmfJZk2iIgAw/exec>'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+
+</script>
+
+
 </body>
 </html>
