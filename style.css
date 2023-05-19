@@ -507,6 +507,14 @@ form .contact{
 
 }
 
+#msg{
+
+    colour: #5BA3F8;
+    display: block;
+    margin-top: -22%;
+
+}
+
 /* Footer: Body */
 
 .copyright{
@@ -516,7 +524,8 @@ form .contact{
        padding: 25px 0;
        background: #262626;
        font-weight: 300;
-       margin-top: 20px;
+       margin-top: 130px;
+       position: absolute;
 
 }
 
@@ -685,6 +694,8 @@ form .contact{
     .copyright{
 
         font-size: 14px;
+        margin-top: 40px;
+        position: relative;
 
     }
 
