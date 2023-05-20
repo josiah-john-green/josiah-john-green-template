@@ -277,7 +277,7 @@ nav ul li a:hover::after{
 
 .interests-list div i{
 
-      font-size: 60px;
+      font-size: 50px;
       margin-bottom: 30px;
 
 }
@@ -294,7 +294,7 @@ nav ul li a:hover::after{
 
       text-decoration: none;
       color: #fff;
-      font-size: 13px;
+      font-size: 14px;
       margin-top: 20px;
       display: inline-block;
 
@@ -344,7 +344,8 @@ nav ul li a:hover::after{
 .layer{
 
       width: 100%;
-      height: 0;
+      height: 100%;
+      opacity: 0;
       background: linear-gradient(rgba(0,0,0,0.4), #5BA3F8);
       border-radius: 10px;
       position: absolute;
@@ -358,15 +359,17 @@ nav ul li a:hover::after{
       padding: 0 40px;
       text-align: center;
       font-size: 14px;
-      transition: 0.5s;
       line-height: 1.8;
+      transition: opacity 0.5s;
+
 
 }
 
 .layer h3{
 
+      font-size: 20px;
       font-weight: 500;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
 
 }
 
@@ -393,7 +396,7 @@ nav ul li a:hover::after{
 
 .work:hover .layer{
 
-      height: 100%;
+      opacity: 1.0;
 
 }
 
@@ -661,6 +664,25 @@ form .contact{
 
     }
 
+    .interests-list div{
+
+        font-size: 11px;
+        line-height: 1.6;
+
+    }
+
+    .interests-list div i{
+
+        font-size: 30px;
+
+    }
+
+    .interests-list div a{
+
+        font-size: 20px;
+
+    }
+
     /* My Work: Body */
 
     .work-list{
@@ -670,6 +692,32 @@ form .contact{
 
     }
 
+    .layer{
+
+        font-size: 25px;
+
+
+    }
+
+    .layer h3{
+
+        font-size: 50px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+
+    .layer a{
+
+        font-size: 35px;
+        margin-top: 30px;
+
+    }
+
+    .btn{
+
+        font-size: 8px;
+
+    }
 
     /* Contact: Body */
 
@@ -688,16 +736,23 @@ form .contact{
 
     }
 
+    .btn.contact{
+
+        font-size: 15px;
+
+    }
+
 
     /* Footer: Body */
 
     .copyright{
 
-        font-size: 14px;
+        font-size: 12px;
         margin-top: 40px;
         position: relative;
 
     }
+
 
 
 }
